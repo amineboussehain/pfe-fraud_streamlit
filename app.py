@@ -10,7 +10,7 @@ st.set_page_config(page_title="💳 Détection de Fraude", layout="wide")
 
 # 🔄 Chargement du modèle une seule fois
 def load_model():
-    return joblib.load("fraud_detector_model.pkl")
+    return joblib.load("fraud_detector_model_streamlit.pkl")
 
 model = load_model()
 
