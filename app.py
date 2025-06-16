@@ -8,7 +8,7 @@ import seaborn as sns
 st.set_page_config(page_title="💳 Détection de Fraude", layout="wide")
 
 def load_model():
-    return joblib.load("fraud_detector_model_streamlit.pkl")
+    return joblib.load("fraud_detector_model.pkl")
 
 model = load_model()
 
